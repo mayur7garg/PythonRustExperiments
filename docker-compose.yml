@@ -1,0 +1,11 @@
+version: "3.9"
+name: "python-rust-exp"
+services:
+  python-rust-exp:
+    build: ./
+    image: python-rust-exp:latest
+    volumes:
+      - .:/src
+    tty: true
+    command: /bin/bash
+    container_name: python-rust-exp
