@@ -1,0 +1,6 @@
+{
+	"name": "Python Rust Experiments",
+	"dockerComposeFile": ["../docker-compose.yml"],
+	"service": "python-rust-exp",
+	"workspaceFolder": "/src"
+}
